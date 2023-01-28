@@ -1,18 +1,24 @@
-import React from "react";
+import { React, useEffect } from "react";
 import "../GamerWorld/GamerCart.scss";
 import { AiFillStar } from "react-icons/ai";
 import { MdZoomOutMap } from "react-icons/md";
 import { BsSuitHeart, BsBasket3 } from "react-icons/bs";
 import { SlRefresh } from "react-icons/sl";
 import { AppMock } from "../../../Mock/Mock";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const GamerCart = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <section id="game-cart">
-      <div className="container">
+      <div className="container" data-aos="fade-up">
         <h3>Gamer World</h3>
       </div>
-      <div className="container">
+      <div className="container" data-aos="fade-up">
         <div className="row g-3">
           <div className="col-lg-3">
             <div className="cart">
