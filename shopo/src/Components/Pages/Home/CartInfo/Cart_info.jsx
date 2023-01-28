@@ -1,30 +1,30 @@
-import React from "react";
+import { React, useEffect } from "react";
 import "../CartInfo/Cart_info.scss";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Banner1 from "../../../Assets/banner-1.png";
+import Banner2 from "../../../Assets/banner-2.png";
+import Banner3 from "../../../Assets/banner-3.png";
 const Cart_info = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <section id="cart_info">
       <div className="container">
         <div className="row">
-          <div className="col-lg-7 left_side">
+          <div className="col-lg-7 left_side" data-aos="fade-right">
             <div className="img">
-              <img
-                src="https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80"
-                alt=""
-              />
+              <img src={Banner1} alt="" />
             </div>
           </div>
-          <div className="col-lg-5 right_side">
+          <div className="col-lg-5 right_side" data-aos="fade-left">
             <div className="img">
-              <img
-                src="https://images.unsplash.com/photo-1585155770447-2f66e2a397b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
-                alt=""
-              />
+              <img src={Banner2} alt="" />
             </div>
             <div className="img">
-              <img
-                src="https://images.unsplash.com/photo-1661961110218-35af7210f803?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-                alt=""
-              />
+              <img src={Banner3} alt="" />
             </div>
           </div>
         </div>
