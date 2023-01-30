@@ -36,6 +36,9 @@
         width: 42%;
         border: transparent;
         padding: 4px;
+        @media (max-width: 500px) {
+          width: 80%;
+        }
       }
     }
     .right_hover {

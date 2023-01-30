@@ -42,7 +42,7 @@ const GamerCart = () => {
           {AppMock &&
             AppMock.map((el) => {
               return (
-                <div key={el.id} className="col-lg-3">
+                <div key={el.id} className="col-lg-3 col-md-6 col-sm-12">
                   <div className="cart2">
                     <div className="img">
                       <img src={el.imgSrc} alt="" />

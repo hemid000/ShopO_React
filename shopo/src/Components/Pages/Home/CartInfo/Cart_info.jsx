@@ -14,12 +14,12 @@ const Cart_info = () => {
     <section id="cart_info">
       <div className="container">
         <div className="row">
-          <div className="col-lg-7 left_side" data-aos="fade-right">
+          <div className="col-lg-7 col-12 left_side" data-aos="fade-right">
             <div className="img">
               <img src={Banner1} alt="" />
             </div>
           </div>
-          <div className="col-lg-5 right_side" data-aos="fade-left">
+          <div className="col-lg-5 col-12 right_side" data-aos="fade-left">
             <div className="img">
               <img src={Banner2} alt="" />
             </div>

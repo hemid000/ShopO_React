@@ -20,7 +20,7 @@ const Products = () => {
           {ProductMock &&
             ProductMock.map((el) => {
               return (
-                <div key={el.id} className="col-lg-6" data-aos="fade-left">
+                <div key={el.id} className="col-lg-6 " data-aos="fade-left">
                   <div className="cart">
                     <div className="left_side">
                       <div className="img">

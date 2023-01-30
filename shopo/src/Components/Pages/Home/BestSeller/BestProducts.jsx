@@ -21,8 +21,8 @@ const BestProducts = () => {
         <h3>Best Saller</h3>
       </div>
       <div className="container mt-5" data-aos="fade-right">
-        <div className="row">
-          <div className="col-lg-2">
+        <div className="row g-5">
+          <div className="col-lg-2 col-md-4 col-sm-12">
             <div className="cart">
               <div className="box">
                 <img src={seller1} alt="" />
@@ -30,7 +30,7 @@ const BestProducts = () => {
               <span>Shopno BD</span>
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-4 col-sm-12">
             <div className="cart">
               <div className="box">
                 <img src={seller2} alt="" />
@@ -38,7 +38,7 @@ const BestProducts = () => {
               <span>Eecoms Shop</span>
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-4 col-sm-12">
             <div className="cart">
               <div className="box">
                 <img src={seller3} alt="" />
@@ -46,7 +46,7 @@ const BestProducts = () => {
               <span>Fusion X</span>
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-4 col-sm-12">
             <div className="cart">
               <div className="box">
                 <img src={seller4} alt="" />
@@ -54,7 +54,7 @@ const BestProducts = () => {
               <span>Rikayi Rox</span>
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-4 col-sm-12">
             <div className="cart">
               <div className="box">
                 <img src={seller5} alt="" />
@@ -62,7 +62,7 @@ const BestProducts = () => {
               <span>Habbriyi</span>
             </div>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 col-md-4 col-sm-12">
             <div className="cart">
               <div className="box">
                 <img src={seller6} alt="" />

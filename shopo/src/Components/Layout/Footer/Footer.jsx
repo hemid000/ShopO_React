@@ -99,9 +99,6 @@ const Footer = () => {
                       <a href="#">Tags</a>
                     </li>
                     <li>
-                      <a href="#">Tags</a>
-                    </li>
-                    <li>
                       <a href="#">Authors</a>
                     </li>
                   </ul>

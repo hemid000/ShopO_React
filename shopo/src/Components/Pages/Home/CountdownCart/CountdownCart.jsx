@@ -14,7 +14,7 @@ const CountdownCart = () => {
   return (
     <section id="countdown">
       <div className="container">
-        <div className="row">
+        <div className="row g-3">
           <div className="col-lg-6">
             <div className="cart_left" data-aos="fade-right">
               <div className="boxall">
